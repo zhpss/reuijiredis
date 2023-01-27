@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: springdataredis_demo
+  redis:
+    host: 192.168.0.101
+    port: 6379
+    database: 0
+    auth: 123456
+
+    jedis:
+      pool:
+        max-active: 8
+        max-wait: 1ms
+        max-idle: 4
+        min-idle: 0
+        auth: 123456
+      auth: 123456
